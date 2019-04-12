@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Automated Diagnosis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) *
+  
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 10px;
+    }
+
+    #header {
+      height:5%;
+    }
+    #body{
+      height:87%;
+    }
+    #foot{
+      height: 8%;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" id="header">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Register Patient</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="patient_info.html">Patient Information</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="results.html">Diagnosis Results</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center" id="body">    
+  <div class="row content">
+    <div class="col-sm-8 text-left"> 
+      <h3>Diagnosis results</h3>
+      <center>
+          <div class="form-group">
+            <label>Patient id</label>
+            <h4 style="display: inline-block;margin:10px;">1231</h4>
+            <br>
+            <label>Age</label>
+            <h4 style="display: inline-block;margin:10px;">67</h4>
+            <br>
+            <label>Gender</label>
+            <h4 style="display: inline-block;margin:10px;">Male</h4>
+            <br>
+            <div style="float:left;margin-left: 100px;">
+              <label>Left fundus image</label><br>
+              <img src="F:/Dataset/DR/training dataset/train003_preprocessed/30_left.jpeg" style="max-width: 100px;max-height: 100px;"/><br><br><br>
+              <label><h4>Result</h4></label>
+              <h4 style="display: inline-block;margin-left: 10px"><b>Moderate DR</b></h4>
+              <br><br>
+              <label style="float: left;margin: 10px;">Symptoms</label>
+              <ol style="display: inline-block;margin:10px;">
+                <li>anchhhhhhhhhhhh</li>
+                <li>aaaaaaaaaaaaaaaaaaa</li>
+              </ol>
+              <br>
+              <label style="float: left;float: left;margin: 10px;">Cure</label>
+              <ol style="display: inline-block;margin: 10px;">
+                <li>Tab1</li>
+                <li>Tab2</li>
+              </ol>
+              
+            </div>
+            <div style="float:right;margin-right: 50px;">
+              <label >Right fundus image</label><br>
+               <img src="F:/Dataset/DR/training dataset/train003_preprocessed/30_right.jpeg" style="max-width: 100px;max-height: 100px;"/><br><br><br>
+              <label><h4>Result</h4></label>
+              <h4 style="display: inline-block;margin-left:10px;"><b>NO DR</b></h4>
+            </div>
+            <!--
+            <label>Result</label>
+            <h4 style="display: inline-block;margin: 20px;"><b>Moderate DR</b></h4>
+            <br>
+            <label>Symptoms</label>
+            <ol style="display: inline-block;margin: 20px;">
+              <li>anchhhhhhhhhhhh</li>
+              <li>aaaaaaaaaaaaaaaaaaa</li>
+            </ol>
+            <br>
+            <label>Cure</label>
+            <ol style="display: inline-block;margin: 20px;">
+              <li>Tab1</li>
+              <li>Tab2</li>
+            </ol>
+          -->
+          </div>
+        </center>
+    </div>
+  </div>
+</div>
+</body>
+</html>
