@@ -1,0 +1,41 @@
+{
+  "name": "diabetic_retinopathy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-pdf/renderer": "^1.4.2",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "filepond": "^4.3.4",
+    "follow-redirects": "^1.7.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "is-buffer": "^2.0.3",
+    "jspdf": "^1.5.3",
+    "python-shell": "^1.0.7",
+    "react": "^16.8.5",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.8.5",
+    "react-filepond": "^7.0.1",
+    "react-full-screen": "^0.2.4",
+    "react-pdf": "^4.0.5",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "typescript": "^3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
